@@ -8,12 +8,14 @@ Currently, the project supports a selection of models from each library. However
 expand the support, aiming to include more models
 in the future.   
 
+## Supported Features
+ - Quantize pretrained models from various model [libraries](#supported-libraries)
+ - Evaluate the performance of the floating point model and the quantized model.
+ - Use MCT's Post-Training Quantization (PTQ) scheme [link to example](#basic-model-quantization-example---post-training-quantization-ptq)
+ - Use MCT's advanced quantization techniques (such as GPTQ and Mixed Precision) [link to the example](#advanced-model-quantization-example)
 
-## Supported libraries
-- torchvision: [https://pytorch.org/vision/stable/index.html](https://pytorch.org/vision/stable/index.html)
-- timm: [https://github.com/huggingface/pytorch-image-models/tree/main/timm](https://github.com/huggingface/pytorch-image-models/tree/main/timm)
-- ultralytics: [https://ultralytics.com](https://ultralytics.com)
-- keras-applications: [https://keras.io/api/applications](https://keras.io/api/applications/)
+
+## Results
 
 <table>
     <tr>
@@ -151,6 +153,12 @@ in the future.
         <td>25.9</td>
     </tr>
 </table>
+
+## Supported libraries
+- torchvision: [https://pytorch.org/vision/stable/index.html](https://pytorch.org/vision/stable/index.html)
+- timm: [https://github.com/huggingface/pytorch-image-models/tree/main/timm](https://github.com/huggingface/pytorch-image-models/tree/main/timm)
+- ultralytics: [https://ultralytics.com](https://ultralytics.com)
+- keras-applications: [https://keras.io/api/applications](https://keras.io/api/applications/)
 
 
 ## Getting Started
